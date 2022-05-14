@@ -1,38 +1,54 @@
-.App {
+.App{
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+  margin: 0 1%;
+  font-family: cursive;
+}
+
+h1 {
+  color: yellow;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2,h2,h3,h4,h5 {
+  color: #61dafb;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
+a{
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-header{
+  top: 0;
+  position: sticky;
+  background-color: rgba(0, 0, 0, 0.05);
+  z-index: 10;
+  height: 10vh;
+  border-bottom: solid;
+  border-radius: 20px;
+  border-color: yellow;
+}
+
+.App-body{
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #61dafb; 
+  border-radius: 5px;
 }

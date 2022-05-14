@@ -1,0 +1,19 @@
+.editorContainer{
+    border: solid;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}   
+
+.toolbar{
+    display: flex;
+    float: left;
+    height: 5vh;
+}
+
+button{
+    background-color: none;
+    color: black;
+}

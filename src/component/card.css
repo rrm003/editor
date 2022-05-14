@@ -1,0 +1,15 @@
+.card{
+    border: solid;
+    border-color: #61dafb;
+    border-radius: 10px;
+    margin: 2%;
+    /* box-shadow: white 0px 1px 4px; */
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card h3{
+    color: #61dafb;
+}

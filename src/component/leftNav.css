@@ -1,0 +1,14 @@
+.leftNav{
+    overflow-x: hidden;
+    overflow-y: scroll;    
+    text-align: left;
+}
+
+ul{
+    text-align: left;
+    list-style: lower-latin;
+}
+
+li{
+    text-align: left;
+}

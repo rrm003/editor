@@ -1,0 +1,37 @@
+.postContainer{
+    padding: 2%;
+    text-align: justify;
+    /* font-family: cursive; */
+}
+
+/* h1{
+    text-align: center;
+    font-family: monospace;
+}
+
+h2{
+
+}
+
+h3{
+
+} */
+
+blockquote{
+    border-left: 5px solid #eee;
+    color: rgb(11, 236, 63);
+    font-family: 'Hoefler Text', 'Georgia', serif;
+    font-style: italic;
+    margin: 16px 0;
+    padding: 10px 20px;
+}
+
+pre{
+    padding: 2%;
+    border-left: solid;
+    background-color: rgb(64, 62, 77);
+}
+
+button{
+    float: right;
+}

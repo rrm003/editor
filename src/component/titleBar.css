@@ -1,0 +1,32 @@
+.titleBarContainer{
+    margin: 0% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleBarContainer .logoContainer{
+    display: flex;
+    flex: 1;
+}
+
+.titleBarContainer .navigationContainer{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.titleBarContainer .searchContainer{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: right;
+}
+
+.titleBarContainer a{
+    text-decoration:  none;
+}
